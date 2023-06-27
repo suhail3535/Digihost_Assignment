@@ -22,7 +22,7 @@ header {
     font-size: 25px;
     font-weight: bold;
 }
-hr {
+#hr {
     width: 20%;
     margin: auto;
 }
@@ -216,7 +216,10 @@ aside img {
         transition: background 0.2s;
         border-radius: none;
     }
-
+#hr {
+    width: 70%;
+    margin: auto;
+}
     /* <---------mid_section-------> */
 
     #mid_section_child_div {
@@ -263,7 +266,7 @@ aside img {
         border: none;
         padding: 4px;
         height: 45px;
-        width: 28%;
+        width: 37%;
         border-radius: 5px;
     }
     #subscribe_button:hover {
@@ -354,7 +357,10 @@ aside img {
         transition: background 0.2s;
         border-radius: none;
     }
-
+#hr {
+    width: 40%;
+    margin: auto;
+}
     /* <---------mid_section-------> */
 
     #mid_section_child_div {
@@ -500,7 +506,10 @@ aside img {
         transition: background 0.2s;
         border-radius: none;
     }
-
+#hr {
+    width: 30%;
+    margin: auto;
+}
     /* <------Bottom Section-------> */
     #bottom_section {
         height: auto;
