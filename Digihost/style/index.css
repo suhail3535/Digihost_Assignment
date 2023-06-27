@@ -1,0 +1,496 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+* {
+    font-family: "Bree Serif", serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+/* *****Top section css********* * */
+
+#headersection {
+    border: 2px solid green;
+    height: auto;
+    width: 90%;
+    margin: 50px auto;
+    margin-bottom: 10px;
+    background-color: #f1f1f1c2;
+}
+header {
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+    font-size: 25px;
+    font-weight: bold;
+}
+hr {
+    width: 30%;
+    margin: auto;
+}
+section {
+    width: 80%;
+    margin: auto;
+    border: 1px solid yellow;
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.img_div {
+    border: 1px solid;
+    width: 30%;
+}
+section img {
+    width: 100%;
+    border: 2px solid red;
+    object-fit: cover;
+}
+#button_div {
+    border: none;
+    width: 20%;
+    margin: auto;
+    padding: 10px;
+}
+#shop_button {
+    border: none;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(44, 43, 43, 0.838);
+    color: white;
+    border-radius: 2px;
+}
+#shop_button:hover {
+    background-color: black;
+    color: white;
+    transition: background 0.2s;
+    border-radius: none;
+}
+
+/* *********Mid section css****** */
+#mid_section {
+    border: 2px solid rgb(119, 0, 128);
+    width: 90%;
+    margin: auto;
+}
+#mid_section_child_div {
+    border: 1px solid rgb(0, 128, 2);
+    height: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    cursor: pointer;
+}
+.mid_img_div {
+    border: 1px solid pink;
+    width: 45%;
+    text-align: center;
+}
+.mid_img_div img {
+    border: 1px solid rgb(192, 199, 255);
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    height: auto;
+    margin-right: auto;
+}
+/* **********Bottom Section****** */
+#bottom_section {
+    border: 2px solid rgb(0, 128, 45);
+    height: auto;
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+}
+.bottom_child_div1 {
+    width: 55%;
+    padding: 10px;
+}
+.bottom_child_div2 {
+    width: 40%;
+    padding-top: 50px;
+    padding-left: 20px;
+
+    vertical-align: middle;
+}
+input {
+    border: 1px solid gray;
+    width: 55%;
+    padding: 2px;
+    height: 30px;
+    border-radius: 3px;
+}
+#subscribe_button {
+    border: none;
+    padding: 4px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#subscribe_button:hover {
+    border: none;
+    background-color: black;
+    color: white;
+
+    border-radius: 5px;
+}
+/* *********Footer part********** */
+footer {
+    border: 2px solid yellowgreen;
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+aside {
+    width: 35%;
+    padding: 20px;
+}
+aside img {
+    width: 95%;
+}
+#footer_second_child {
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.fotter_card img {
+    width: 95%;
+    border: 0.5px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* *******Media Query for mobile screen******* */
+@media screen and (min-width: 300px) and (max-width: 420px) {
+
+    /* <---Top section-----> */
+    header {
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    section {
+        width: 80%;
+        margin: auto;
+        border: 5px solid yellow;
+        display: block;
+        padding: 20px;
+
+        margin-top: 30px;
+    }
+    .img_div {
+        border: 2px solid red;
+        width: 100%;
+        padding: 10px;
+    }
+    section img {
+        width: 100%;
+        border: 1px solid rgb(0, 255, 4);
+        object-fit: cover;
+    }
+    #button_div {
+        border: none;
+        width: 50%;
+        margin: auto;
+        padding: 10px;
+    }
+    #shop_button {
+        border: none;
+        width: 80%;
+        margin: auto;
+        padding: 10px;
+        margin-top: 20px;
+        text-align: center;
+        background-color: rgba(44, 43, 43, 0.838);
+        color: white;
+        border-radius: 2px;
+    }
+    #shop_button:hover {
+        background-color: black;
+        color: white;
+        transition: background 0.2s;
+        border-radius: none;
+    }
+
+    /* <---------mid_section-------> */
+
+    #mid_section_child_div {
+        border: 1px solid rgb(0, 128, 2);
+        height: auto;
+        width: 90%;
+        display: block;
+
+        margin: 20px auto;
+        cursor: pointer;
+    }
+    .mid_img_div {
+        border: 1px solid pink;
+        width: 100%;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .mid_img_div img {
+        border: 1px solid rgb(192, 199, 255);
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        height: auto;
+        margin-right: auto;
+    }
+    /* <------Bottom Section-------> */
+    #bottom_section {
+        border: 5px solid rgb(0, 128, 45);
+        height: auto;
+        width: 90%;
+        margin: 10px auto;
+        display: block;
+    }
+    .bottom_child_div1 {
+        width: 85%;
+        margin: auto;
+    }
+    .bottom_child_div2 {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    input {
+        width: 60%;
+        height: 40px;
+        margin-left: 10px;
+    }
+    #subscribe_button {
+        border: none;
+        padding: 4px;
+        height: 45px;
+        border-radius: 5px;
+    }
+    #subscribe_button:hover {
+        border: none;
+        background-color: black;
+        color: white;
+
+        border-radius: 5px;
+    }
+}
+
+/* *******Media Query for Tab screen******* */
+@media screen and (min-width: 421px) and (max-width: 767px) {
+    header {
+        text-align: center;
+        padding: 20px 0px 10px 0px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    section {
+        width: 80%;
+        margin: auto;
+        border: 5px solid yellow;
+        display: block;
+        padding: 20px;
+
+        margin-top: 30px;
+    }
+    .img_div {
+        border: 2px solid red;
+        width: 100%;
+        padding: 10px;
+    }
+    section img {
+        width: 100%;
+        border: 1px solid rgb(0, 255, 4);
+        object-fit: cover;
+    }
+    #button_div {
+        border: none;
+        width: 50%;
+        margin: auto;
+        padding: 10px;
+    }
+    #shop_button {
+        border: none;
+        width: 80%;
+        margin: auto;
+        padding: 10px;
+        margin-top: 20px;
+        text-align: center;
+        background-color: rgba(44, 43, 43, 0.838);
+        color: white;
+        border-radius: 2px;
+    }
+    #shop_button:hover {
+        background-color: black;
+        color: white;
+        transition: background 0.2s;
+        border-radius: none;
+    }
+
+    /* <---------mid_section-------> */
+
+    #mid_section_child_div {
+        border: 1px solid rgb(0, 128, 2);
+        height: auto;
+        width: 90%;
+        display: block;
+
+        margin: 20px auto;
+        cursor: pointer;
+    }
+    .mid_img_div {
+        border: 1px solid pink;
+        width: 100%;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .mid_img_div img {
+        border: 1px solid rgb(192, 199, 255);
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        height: auto;
+        margin-right: auto;
+    }
+    /* <------Bottom Section-------> */
+    #bottom_section {
+        border: 5px solid rgb(0, 128, 45);
+        height: auto;
+        width: 90%;
+        margin: 10px auto;
+        display: block;
+    }
+    .bottom_child_div1 {
+        width: 85%;
+        margin: auto;
+    }
+    .bottom_child_div2 {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    input {
+        width: 60%;
+        padding: 2px;
+        margin-left: 10px;
+        height: 40px;
+    }
+    #subscribe_button {
+        border: none;
+        padding: 4px;
+        height: 45px;
+        border-radius: 5px;
+    }
+    #subscribe_button:hover {
+        border: none;
+        background-color: black;
+        color: white;
+
+        border-radius: 5px;
+    }
+}
+
+/* *******Media Query for Laptop screen******* */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #headersection {
+        border: 10px solid green;
+        height: auto;
+        width: 90%;
+        margin: 50px auto;
+        margin-bottom: 10px;
+        background-color: #f1f1f1c2;
+    }
+    header {
+        text-align: center;
+        padding: 20px 0px 10px 0px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    section {
+        width: 80%;
+        margin: auto;
+        border: 5px solid yellow;
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .img_div {
+        border: 2px solid red;
+        width: 100%;
+        padding: 10px;
+    }
+    section img {
+        width: 100%;
+        border: 1px solid rgb(0, 255, 4);
+        object-fit: cover;
+    }
+    #button_div {
+        border: none;
+        width: 50%;
+        margin: auto;
+        padding: 10px;
+    }
+    #shop_button {
+        border: none;
+        width: 80%;
+        margin: auto;
+        padding: 10px;
+        margin-top: 20px;
+        text-align: center;
+        background-color: rgba(44, 43, 43, 0.838);
+        color: white;
+        border-radius: 2px;
+    }
+    #shop_button:hover {
+        background-color: black;
+        color: white;
+        transition: background 0.2s;
+        border-radius: none;
+    }
+
+    /* <------Bottom Section-------> */
+    #bottom_section {
+        border: 5px solid rgb(0, 128, 45);
+        height: auto;
+        width: 90%;
+        margin: 10px auto;
+        display: block;
+    }
+    .bottom_child_div1 {
+        width: 90%;
+        margin: auto;
+    }
+    .bottom_child_div2 {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    input {
+        width: 60%;
+        margin-bottom: 30px;
+        height: 40px;
+    }
+    #subscribe_button {
+        border: none;
+        padding: 4px;
+        height: 45px;
+        border-radius: 5px;
+    }
+    #subscribe_button:hover {
+        border: none;
+        background-color: black;
+        color: white;
+      border-radius: 5px;
+    }
+}
