@@ -8,12 +8,13 @@ body {
 }
 /* <------Top section css-----> */
 
-#headersection {
+main{
     height: auto;
     width: 90%;
     margin: 50px auto;
     margin-bottom: 10px;
     background-color: #f1f1f1c2;
+
 }
 header {
     text-align: center;
@@ -196,10 +197,11 @@ aside img {
         width: 50%;
         margin: auto;
         padding: 10px;
+
     }
     #shop_button {
         border: none;
-        width: 80%;
+        width: 100%;
         margin: auto;
         padding: 10px;
         margin-top: 20px;
@@ -337,7 +339,7 @@ aside img {
     }
     #shop_button {
         border: none;
-        width: 80%;
+        width: 100%;
         margin: auto;
         padding: 10px;
         margin-top: 20px;
@@ -445,7 +447,7 @@ aside img {
 
 /* <-------Media Query for Laptop screen-------> */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    #headersection {
+    #main {
         height: auto;
         width: 90%;
         margin: 50px auto;
